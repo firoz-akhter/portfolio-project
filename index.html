@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link href="./logos/chip.svg" rel="icon">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- header of the webpage -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- logo of portfolio -->
+            <a id="nameLogo" href="#home">Firoz Akhter</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Project</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <!-- toggle theme -->
+        <label for="checkbox" class="label">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+            <span class="toggle"></span>
+        </label>
+    </header>
+    <input id="checkbox" class="checkbox" type="checkbox">
+
+    <!-- portfolio container -->
+    <div class="container">
+        
+        <!-- home section -->
+        <section id="home" class="home-section">
+            <div class="home-left-div">
+                <h1 class="intro">Hi, I'm Firoz. <br>I love to build amazing apps.</h1>
+                <p>
+                    I thrive on creating seamless and engaging user experiences, and I am constantly staying updated with the latest industry trends and technologies to ensure that my projects are cutting-edge.
+                </p>
+                <div class="icons-div">
+                    <a class="work-with-me" href="#contact">Work With Me</a>
+                    <!-- social media icons -->
+                    <a href="https://www.linkedin.com/in/firoz-akhter-6910741b0/" target="_blank">
+                        <img src="./logos/linkedin.svg" alt="linkedInLogo">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="./logos/facebook.svg" alt="">
+                    </a>
+                    <a href="https://x.com/i/flow/login" target="_blank">
+                        <img width="48px" src="./logos/twitter-squared-48.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./logos/instagram-old.svg" alt="">
+                    </a>
+
+                    <button class="resume">
+                        <a href="https://drive.google.com/file/d/1lx1qxu-BLO3clvRiIB-C5iwBKu4hrQDO/view?usp=sharing" target="_blank">Download CV</a>
+                    </button>
+                </div>
+            </div>
+            <div class="img-div">
+                <img class="profile-img" class="coding-img" src="./img/tom-hiddleston-profile.jpg" alt="coding">
+            </div>
+        </section>
+
+         <!-- about me section -->
+        <section id="about" class="aboutMe grid">
+            <div class="loki-img-div">
+                <img class="loki-img" src="./img/loki about me.jpg" alt="">
+            </div>
+            <div class="about-me-right-div">
+                <h2>About Me</h2>
+                <h3>Code Warrior by Day, Debugger by night</h3>
+                <p>My technical expertise spans multiple programming languages, including Python, Java, C++, and JavaScript. I am well-versed in various frameworks and libraries such as Django, Flask, Spring, and React, and I have a strong background in both front-end and back-end development. Additionally, I have hands-on experience with database management systems like MySQL, PostgreSQL, 
+                    and MongoDB, as well as cloud services like AWS and Azure.I take pride in writing clean, maintainable code and have a knack for debugging and optimizing existing codebases.</p>
+                <p class="bold">
+                    In botht The coding universe and the debugging, I am committed to making apositive impact and ensuring the safety of both digital and real-world landscapes.
+                </p>
+                <button class="readMore">Read More</button>
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section id="skills" class="skills-section">
+            <div>
+                <i class="icon fa-solid fa-microchip"></i>
+                <h2>Skills & Technologies</h2>
+                <p>I have a strong command over several programming languages, each enabling me to tackle diverse projects and challenges:</p>
+            </div>
+            <div class="skills">
+                <span><i class="fa-solid fa-circle-check"></i> HTML/CSS 
+                    <svg width="45" height="45" viewBox="0 0 250 250" class="check circular-progress">
+                        <circle class="bg"></circle>
+                        <circle class="fg"></circle>
+                        <text x="60px" y="150px" fill="#6bdba7" font-size="70px" font-weight="bold" >80%</text>
+                    </svg>
+                </span>
+                <span><i class="fa-solid fa-circle-check"></i> JavaScript
+                    <svg width="45" height="45" viewBox="0 0 250 250" class="check circular-progress">
+                        <circle class="bg"></circle>
+                        <circle class="fg"></circle>
+                        <text x="60px" y="150px" fill="#6bdba7" font-size="70px" font-weight="bold" >75%</text>
+                    </svg>
+                </span><br>
+                <span><i class="fa-solid fa-circle-check"></i> MERN Stack
+                    <svg width="45" height="45" viewBox="0 0 250 250" class="check circular-progress">
+                        <circle class="bg"></circle>
+                        <circle class="fg"></circle>
+                        <text x="60px" y="150px" fill="#6bdba7" font-size="70px" font-weight="bold" >70%</text>
+                    </svg>
+                </span>
+                <span><i class="fa-solid fa-circle-check"></i> C++
+                    <svg width="45" height="45" viewBox="0 0 250 250" class="check circular-progress">
+                        <circle class="bg"></circle>
+                        <circle class="fg"></circle>
+                        <text x="60px" y="150px" fill="#6bdba7" font-size="70px" font-weight="bold" >80%</text>
+                    </svg>
+                </span><br>
+                <span><i class="fa-solid fa-circle-check"></i> Data Structures & Algorithms
+                    <svg width="45" height="45" viewBox="0 0 250 250" class="check circular-progress">
+                        <circle class="bg"></circle>
+                        <circle class="fg"></circle>
+                        <text x="60px" y="150px" fill="#6bdba7" font-size="70px" font-weight="bold" >79%</text>
+                    </svg>
+                </span>
+                <span><i class="fa-solid fa-circle-check"></i> DBMS
+                    <svg width="45" height="45" viewBox="0 0 250 250" class="check circular-progress">
+                        <circle class="bg"></circle>
+                        <circle class="fg"></circle>
+                        <text x="60px" y="150px" fill="#6bdba7" font-size="70px" font-weight="bold" >65%</text>
+                    </svg>
+                </span>
+            </div>
+        </section>
+
+        <!-- services section   -->
+         <!-- certification section -->
+        <section id="services" class="services-section">
+            <i class="icon fa-solid fa-bell-concierge"></i>
+            <h2>Our Services</h2>
+            <div class="service-container">
+                <label for="certification">
+                <input class="certification" id="certification" type="checkbox">
+                <span class="certificate-div">
+                    <h2>Full Stack Certification</h2>
+                    <h3>He/She is the internshala certified full stack developer.</h3>
+                    <p>Final Score is 99% overall.</p>
+                </span>
+                <span class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web development</h3>
+                    <p>Highlight your commitment to building websites that are responsive and adapt seamlessly to various devices and screen sizes.</p>
+                    <p>Showcase your proficiency in both frontend and backend development, offering end-to-end solutions for clients and user-friendly interfaces that enhance the overall user experience.</p>
+                    <button class="readMore">Read More</button>
+                </span>
+                
+                <span class="card">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h3>Web Design</h3>
+                    <p>As a web designer, I am passionate about creating visually stunning, user-centric websites that deliver exceptional user experiences.</p>
+                    <p>My approach combines creativity with functionality, ensuring that each design not only looks great but also performs seamlessly. I believe that good design is about more than just aesthetics;</p>
+                    <button class="readMore">Read More</button>
+                </span>
+
+                <span class="card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Database</h3>
+                    <p>As a database specialist, I have extensive experience in designing, implementing, and managing robust and efficient database systems.</p>
+                    <p>My expertise spans various types of databases and database management systems, ensuring that data is stored securely, retrieved efficiently, and maintained effectively.</p>
+                    <button class="readMore">Read More</button>
+                </span>
+                </label>
+            </div>
+        </section>
+
+        <!-- project section -->
+        <section id="projects" class="project-section">
+            <div>
+                <i class="icon fa-solid fa-briefcase"></i>
+                <h2>Apps I've Built</h2>
+                <p>My approach to development involves planning, iterative design, and testing to ensure each application is robust and user-friendly.</p>
+            </div>
+            <div class="gifs-div">
+                <span>
+                    <img class="gif" src="./project-gif/project-1.gif" alt="gif">
+                    <div class="overImage">
+                        <p class="para-1">React</p>
+                        <p class="para-2">Path Finding Visualizer</p>
+                        <p class="para-3">The Pathfinding Visualizer is an interactive web application designed to demonstrate and compare various pathfinding algorithms. </p>
+                    </div>
+                </span>
+                <span>
+                    <img class="gif" src="./project-gif/project-2.gif" alt="gif">
+                    <div class="overImage">
+                        <p class="para-1">React</p>
+                        <p class="para-2">Sorting Visualizer</p>
+                        <p class="para-3">The mechanics behind different sorting techniques. By providing visual feedback, it makes easier to understand process of algos.</p>
+                    </div>
+                </span>
+                <span>
+                    <img class="gif" src="./project-gif/project-3.gif" alt="gif">
+                    <div class="overImage">
+                        <p class="para-1">MERN</p>
+                        <p class="para-2">DevChat App</p>
+                        <p class="para-3">The Developer Chat is a real-time messaging platform designed specifically for developers & enthusiasts to connect.</p>
+                    </div>
+                </span><br>
+                <span>
+                    <img class="gif" src="./project-gif/project-4.gif" alt="gif">
+                    <div class="overImage">
+                        <p class="para-1">Vanilla Js</p>
+                        <p class="para-2">Todos App</p>
+                        <p class="para-3">The Todo List Application is a productivity tool designed to help users organize tasks and stay focused on their daily activities.</p>
+                    </div>
+                </span>
+                <span>
+                    <img class="gif" src="./project-gif/project-5.gif" alt="gif">
+                    <div class="overImage">
+                        <p class="para-1">MERN</p>
+                        <p class="para-2">E-Commerce App</p>
+                        <p class="para-3">The E-commerce Application is an online platform designed to facilitate buying/selling of products  over the internet.</p>
+                    </div>
+                </span>
+                <span>
+                    <img class="gif" src="./project-gif/project-6.gif" alt="gif">
+                    <div class="overImage">
+                        <p class="para-1">HTML/CSS JavaScript</p>
+                        <p class="para-2">Music Player App</p>
+                        <p class="para-3">Access to a vast library of songs, albums, and playlists categorized by genres, artists, and personal favorites.</p>
+                    </div>
+                </span>
+            </div>
+
+        </section>
+
+        <!-- contact me form -->
+        <form  id="contact" class="border" action="">
+            <h3>Contact Me</h3>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label>
+            <textarea rows="10" name="message" id="message"></textarea>
+            <!-- submit button -->
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <button>
+            <a href="tel:555-555-5555"><i class="fa-solid fa-square-phone"></i></a>
+        </button>
+        <button>
+            <a href="mailto:0071fm@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </button>
+    </footer>
+</body>
+</html>
